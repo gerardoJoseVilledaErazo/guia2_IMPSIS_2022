@@ -27,7 +27,5 @@
         $Publicacion->Prestado();
         echo '<br>';
         echo '<a class="nav-link" href="http://localhost:8080/guia2_2022/">Home</a>';
-
-        $Publicacion->getNumeroRevista();
     }
 ?>

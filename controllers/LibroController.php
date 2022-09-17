@@ -11,6 +11,7 @@
         // CREANDO INSTANCIA DE CLASE
         $Publicacion = new Libro($codigo,$titulo,$anioPublicacion);
 
+        echo '<h1>Tipo de Publicación: </h1>'.$Publicacion->getTipoPublicacion();
         echo '<h1>Código: </h1>'.$Publicacion->getCodigo();
         echo '<h1>Título: </h1>'.$Publicacion->getTitulo();
         echo '<h1>Año de Publicación: </h1>'.$Publicacion->getAnioPublicacion();

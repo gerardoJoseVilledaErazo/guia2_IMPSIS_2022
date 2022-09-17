@@ -7,6 +7,7 @@
         $codigo = $_POST['codigo'];
         $titulo = $_POST['titulo'];
         $anioPublicacion = $_POST['anioPublicacion'];
+        $estadoPrestamo = $_POST['estadoPrestamo'];
 
         // CREANDO INSTANCIA DE CLASE
         $Publicacion = new Libro($codigo,$titulo,$anioPublicacion);

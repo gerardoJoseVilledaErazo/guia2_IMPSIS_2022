@@ -14,6 +14,8 @@
         <br><br>
         <label>Año de Publicación:  </label><input type="number" name="anioPublicacion" placeholder="Digite el Año de Publicación" required />
         <br><br>
+        <label>Estado de Publicación:  </label><input type="boolval" name="estadoPrestamo" placeholder="Digite 1 ó 0, true or false" required />
+        <br><br>
 
         <input type="submit" value = "Enviar" />
     </form>
